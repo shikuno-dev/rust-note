@@ -1,3 +1,5 @@
+// F(n)=F(n−1)+F(n−2)
+// F(0)=0, F(1)=1
 fn fib(n: u64) -> u64 {
     if n < 2 {
         return n;
