@@ -17,5 +17,5 @@ fn fib(n: u64) -> u64 {
 
 fn main() {
     let n = 10;
-    println!("fib({}) = {}", n, fib(n)); // 出力: 55
+    println!("fib({}) = {}", n, fib(n)); // 出力: fib(10) = 55
 }
